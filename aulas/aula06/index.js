@@ -30,7 +30,7 @@ app.use("/tarefas", router);
 
 //Criar um middleware
 app.get("/", (req, res) => {
-  res.send("Olá");
+  res.send("Ola");
 });
 
 //middleware de erro
