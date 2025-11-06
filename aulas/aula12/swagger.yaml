@@ -1,0 +1,27 @@
+openapi:
+info:
+servers:
+tags:
+paths:
+  /tarefas:
+    get:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+      201:
+        content:
+          application/json:
+            schema:
+              type: object 
+      422: 
+        content:
+          application/json:
+            schema:
+              type: object
+      500:
+        content:       
+components:
